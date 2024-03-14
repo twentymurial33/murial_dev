@@ -2,7 +2,6 @@
 
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
@@ -48,9 +47,7 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Developer and Learner
             </h3>
-      
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillGithub />
             </div>
@@ -61,19 +58,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
+            <h3 className="text-3xl py-1 dark:text-white " style={{textAlign:"center"}}>Software Projects</h3>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
@@ -81,101 +66,29 @@ export default function Home() {
                  Murials Menu
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                Users can easily explore, organize, and edit their culinary experiences, 
+               ensuring that no delightful dish is forgotten.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Technologies I  Used</h4>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">NodeJs</p>
+              <p className="text-gray-800 py-1">Prisma</p>
+              <p className="text-gray-800 py-1">PostgreSQL</p>
+              <p className="text-gray-800 py-1">StyledComponents</p>
+              <p className="text-gray-800 py-1">Cloudinary</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                Fitness Pal
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+                Fitness Enthusiasts can track their daily workouts and create workout plans.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
-            </div>
-          </div>
-        </section>
-        <section className="py-10">
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              {/* <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              /> */}
-            </div>
-            <div className="basis-1/3 flex-1">
-              {/* <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              /> */}
-            </div>
-            <div className="basis-1/3 flex-1">
-              {/* <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              /> */}
-            </div>
-            <div className="basis-1/3 flex-1">
-              {/* <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              /> */}
-            </div>
-            <div className="basis-1/3 flex-1">
-              {/* <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              /> */}
-            </div>
-            <div className="basis-1/3 flex-1">
-              {/* <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              /> */}
+              <h4 className="py-4 text-teal-600">Technologies I  Used</h4>
+              <p className="text-gray-800 py-1">NextJS</p>
+              <p className="text-gray-800 py-1">Prisma</p>
+              <p className="text-gray-800 py-1">PostgreSQL</p>
+              <p className="text-gray-800 py-1">StyledComponents</p>
             </div>
           </div>
         </section>
