@@ -5,6 +5,9 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
+import Image from "next/image";
+import web1 from "../public/Murial.jpg";
+import Link from "next/link";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 
@@ -45,14 +48,18 @@ export default function Home() {
               Murial Anindo
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and Learner
+             Aspiring FullStack Developer| Coffee Lover | Bulldog Mom| CrossFitter
             </h3>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillLinkedin />
-              <AiFillGithub />
+            <Link href="https://github.com/twentymurial33">
+            <button> <AiFillGithub /></button>
+          </Link>
+          <Link href="https://www.linkedin.com/in/murial-anindo/">
+            <button>  <AiFillLinkedin /> </button>
+          </Link>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              {/* <Image src={deved} layout="fill" objectFit="cover" /> */}
+               <Image src={web1} alt="murials " layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -75,18 +82,19 @@ export default function Home() {
               <p className="text-gray-800 py-1">Prisma</p>
               <p className="text-gray-800 py-1">PostgreSQL</p>
               <p className="text-gray-800 py-1">StyledComponents</p>
-              <p className="text-gray-800 py-1">Cloudinary</p>
+              <p className="text-gray-800 py-1">Cloudinary API</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                Fitness Pal
               </h3>
               <p className="py-2">
-                Fitness Enthusiasts can track their daily workouts and create workout plans.
+                Fitness Enthusiasts can track their daily workouts and create customized workout plans.
               </p>
               <h4 className="py-4 text-teal-600">Technologies I  Used</h4>
               <p className="text-gray-800 py-1">NextJS</p>
               <p className="text-gray-800 py-1">Prisma</p>
+              <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">PostgreSQL</p>
               <p className="text-gray-800 py-1">StyledComponents</p>
             </div>
