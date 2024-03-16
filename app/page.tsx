@@ -69,9 +69,10 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                 Murials Menu
-              </h3>
+            <Link href="https://murialsmenu.netlify.app/">
+            <button className="text-teal-600 text-lg font-medium pt-8 pb-2 bg-teal-300 rounded-md">
+                 Murials Menu </button>
+            </Link>
               <p className="py-2">
                 Users can easily explore, organize, and edit their culinary experiences, 
                ensuring that no delightful dish is forgotten.
@@ -85,9 +86,11 @@ export default function Home() {
               <p className="text-gray-800 py-1">Cloudinary API</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-               Fitness Pal
-              </h3>
+                <Link href="https://github.com/twentymurial33/fitness_pal">
+            <button className="text-teal-600 text-lg font-medium pt-8 pb-2 bg-teal-300 rounded-md">
+                 Fitness Pal </button>
+            </Link>
+       
               <p className="py-2">
                 Fitness Enthusiasts can track their daily workouts and create customized workout plans.
               </p>
