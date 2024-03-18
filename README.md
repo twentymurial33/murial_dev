@@ -5,7 +5,12 @@ This App was developed as part of my portfolio. Using technologies I have been l
 
 LIVE LINK  [https://murial-devportfolio.netlify.app/) with your browser to see the result.
 
+### Technologies Used 
+-------------------------------------------------
+- [X] NextJS
+- [X] Tailwind CSS
 
-## Technologies Used
 
+### DevDependencies
+-------------------------------------------------
 
