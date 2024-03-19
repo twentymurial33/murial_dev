@@ -3,14 +3,17 @@
 ## Overview
 This App was developed as part of my portfolio. Using technologies I have been learning and upskilling in the past few years.
 
-LIVE LINK  [https://murial-devportfolio.netlify.app/) with your browser to see the result.
+## LIVE LINK  
+https://murial-devportfolio.netlify.app 
 
-### Technologies Used 
+### Dependencies 
 -------------------------------------------------
 - [X] NextJS
-- [X] Tailwind CSS
+- [X] React Icons
+- [X] React
+- [X] React Typed
+- [X] React PDF
 
 
-### DevDependencies
--------------------------------------------------
+
 
