@@ -49,7 +49,7 @@ export default function Home() {
             </h2>
           <ReactTyped
           className="typed-text text-2xl py-2 dark:text-white md:text-3xl"
-          strings={["Aspiring FullStack Developer", "Coffee Lover", "Bulldog Mom","CrossFitter"]}
+          strings={["Software Developer", "Coffee Lover", "Bulldog Mom","CrossFitter"]}
           typeSpeed={40}
           backSpeed={60}
           loop
